@@ -11,6 +11,13 @@ $(document).ready(function() {
   $('#text2').hide();
   $('#text3').hide();
   
+  $('#n1').hide();
+  
+    for (var i= 1.0; i>=0.05; i=i-0.05) //creation of navbar
+    {
+     $('#navbar').append('<div style= "background-color: grey; opacity: '+i+'; width: 100%; height: 3.5px"></div>');
+    }
+  
   /*----- navbar animations --------*/
   
   $('.nav').mouseenter(function(){
@@ -42,11 +49,10 @@ $(document).ready(function() {
     var v = i;
     
   $('#nav'+i).mouseenter(function(){
-    if ($('#nav'+i).width() == 60)
-    $('#a'+i).fadeIn('fast');
+    $('#n'+i).fadeIn('fast');
   });
   $('#nav'+i).mouseleave(function(){
-    $('#a'+i).hide();
+    $('#n'+i).fadeOut('fast');
   });
   }
   
@@ -61,7 +67,7 @@ $(document).ready(function() {
 	$('#whatPage').fadeOut();
 	$('#whenPage').fadeOut();
 	$('#wherePage').fadeOut();
-	$('#frontText').fadeOut();
+	$('#frontPage').hide();
   });
   
   /*----- nav2 (What) animation ------*/
@@ -70,7 +76,7 @@ $(document).ready(function() {
 	$('#whoPage').fadeOut();
 	$('#whenPage').fadeOut();
 	$('#wherePage').fadeOut();
-	$('#frontText').fadeOut();
+	$('#frontPage').hide();
   });
   
   /*----- nav3 (When) animation ------*/
@@ -79,7 +85,7 @@ $(document).ready(function() {
 	$('#whoPage').fadeOut();
 	$('#whatPage').fadeOut();
 	$('#wherePage').fadeOut();
-	$('#frontText').fadeOut();
+	$('#frontPage').hide();
   });
   
   /*----- nav4 (Where) animation ------*/
@@ -88,6 +94,6 @@ $(document).ready(function() {
 	$('#whoPage').fadeOut();
 	$('#whatPage').fadeOut();
 	$('#whenPage').fadeOut();
-	$('#frontText').fadeOut();
+	$('#frontPage').hide();
   });
 });
