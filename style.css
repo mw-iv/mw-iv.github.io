@@ -112,7 +112,18 @@ a{
 		display: inline-block;
 }
 
-#resumeButton{
+#info{
+	position: absolute;
+	margin-top: 10%;
+	width: 100%;
+}
+.infoText{
+	color: white;
+	display: inline;
+	/position: absolute;
+}
+
+.button{
 	width: 150px;
 	height: 40px;
 	border: 3px solid white;
@@ -125,6 +136,20 @@ a{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+.button2{
+	width: 150px;
+	height: 30px;
+	border: 2.5px solid black;
+	border-radius: 20px;
+	background-color: #35a79c;
+	
+	position: absolute;
+	margin-top: 1%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
 #resText{
 	text-align:center;
 	margin-top: 0px;
@@ -139,6 +164,7 @@ img{
 
 .projectPics {
 	text-align: center;
+	margin-top: 5%;
 }
 #planPic{
 
@@ -172,7 +198,7 @@ img{
 }
 
 #accolades{
-	margin-top: 11%
+	margin-top: 17%
 }
 .acc{
 	display: inline-block;
@@ -185,6 +211,9 @@ img{
 	border: 2px solid black;
 	/border-radius: 27%;
 	background: rgba(229, 193, 0, 0.7);
+}
+.acc:hover{
+	background: rgba(229, 193, 0, 0.9);
 }
 #acc1{margin-left: 4%;} #acc2{margin-left: 37.62%;} #acc3{margin-left: 71%;} 
 #acc4{margin-left: 4%; margin-top: 20%;} #acc5{margin-left: 37.62%; margin-top: 20%;}
@@ -201,14 +230,16 @@ img{
         transform: translate(-50%, -50%);
 		display: inline-block;*/
 }
+#gitText{
+	text-align:center;
+	margin-top: 5px;
+	/color: white;
+}
 
 #whenPage{
   position: absolute;
   width: 99%;
   font-family: Arial, Helvetica, sans-serif;
-}
-.whenText{
- 
 }
 
 #wherePage{
@@ -216,13 +247,7 @@ img{
   width: 99%;
   font-family: Arial, Helvetica, sans-serif;
 }
-.whereText{
-        top: 100%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-		display: inline-block;
-}
+
 #acc6{
 	display: inline-block;
 	text-align: center;
@@ -237,7 +262,9 @@ img{
 	/border-radius: 27%;
 	background: rgba(179, 179, 179, 0.7);
 }
-
+#acc6:hover{
+	background: rgba(179, 179, 179, 0.9);
+}
 .orange{
 	color:orange;
 }

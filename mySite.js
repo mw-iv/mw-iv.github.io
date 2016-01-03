@@ -5,6 +5,7 @@ $(document).ready(function() {
   $('#whatPage').hide();
   $('#whenPage').hide();
   $('#wherePage').hide();
+  $('#realEmail').hide();
   
   var t2fadeIn; //boolean for 2nd message
   
@@ -95,5 +96,11 @@ $(document).ready(function() {
 	$('#whatPage').fadeOut();
 	$('#whenPage').fadeOut();
 	$('#frontPage').hide();
+  });
+  
+  /*----- 'Email' animation ------*/
+  $('#email').click(function(){
+	$('#email').hide();
+	$('#realEmail').fadeIn();
   });
 });
