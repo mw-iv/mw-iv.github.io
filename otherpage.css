@@ -42,3 +42,14 @@ h5{
 .box:hover{
 	background: rgba(185, 114, 45, 0.9);
 }
+
+#vol, #ex{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.hsWordsV, .colWordsV{
+	display: none;
+}
