@@ -1,0 +1,44 @@
+html{
+min-height:100%;
+position: relative;
+background-size: 100% 100%;
+}
+
+body{
+	height: 100%;
+	background: url(https://45.media.tumblr.com/ca513146790e0e22a555ef11d9c40be1/tumblr_mpagdiWFpo1sr77jco1_500.gif) no-repeat;
+	background-size: 100% 120%;
+	background-position: right -3em;
+}
+
+h1{
+	color: #35a79c;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h2{
+	color: #35a79c;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h5{
+	font-size: 0.9em
+}
+
+.box{
+	display: inline-block;
+	width: 23em;
+	height: 9em;
+	margin-left: 3.5em;
+	
+	border: 2px solid black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.99em;
+	background: rgba(185, 114, 45, 0.7);
+}
+.box:hover{
+	background: rgba(185, 114, 45, 0.9);
+}
