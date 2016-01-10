@@ -34,8 +34,8 @@ $(document).ready(function() {
 	$("#ex").hide();
 	$("#vol").show();
 	
-	$("#ex").css("width", "12em");
-	$('#vol').animate({width: '12em'},1000);
+	$("#ex").css("width", "12.5em");
+	$('#vol').animate({width: '12.5em'},1000);
   });
 
 });
