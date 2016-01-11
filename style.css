@@ -151,12 +151,9 @@ img{
 	text-align: center;
 	margin-top: 5%;
 }
-#planPic{
-
-}
+#planPic{}
 #expressPic{
 	margin-left: 0%;
-	/position: absolute;
 	text-align:center;
 }
 #chicagoPic {
@@ -193,7 +190,7 @@ img{
 			
 	width: 25%;
 	min-width: 200px;
-	height: 34%;
+	height: 13em;
 	border: 2px solid black;
 	/border-radius: 27%;
 	background: rgba(229, 193, 0, 0.7);
@@ -224,7 +221,6 @@ img{
 #gitText{
 	text-align:center;
 	margin-top: 5px;
-	/color: white;
 }
 
 #whenPage{
