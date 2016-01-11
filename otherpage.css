@@ -29,7 +29,7 @@ h5{
 	display: inline-block;
 	width: 23em;
 	height: 9em;
-	margin-left: 4.5%;
+	/margin-left: 4.5%;
 	position: absolute;
 	
 	border: 2px solid black;
