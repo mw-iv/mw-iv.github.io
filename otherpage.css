@@ -28,8 +28,7 @@ h5{
 .box{
 	display: inline-block;
 	width: 27%;
-	height: 9em;
-	/margin-left: 4.5%;
+	height: 12em;
 	position: absolute;
 	
 	border: 2px solid black;
